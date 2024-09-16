@@ -1,0 +1,149 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>据报道称“浏览器内核有上千万行代码”，浏览器内核真的很复杂吗？ | Neilson Dou</title>
+<link rel="shortcut icon" href="https://neilson.buzz/favicon.ico?v=1726459399423">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://neilson.buzz/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="据报道称“浏览器内核有上千万行代码”，浏览器内核真的很复杂吗？ | Neilson Dou - Atom Feed" href="https://neilson.buzz/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="好问题，我举个小例子，markdown、pdf、txt这三种格式互转，看起来很简单吧，只堆正则就能实现，但是你要真自己用正则去实现呢，就会发现大量的上下兼容问题等稀奇古怪的各种问题。
+浏览器也是这么个东西，也是把一种格式渲染成可视化的界面展..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://neilson.buzz">
+  <img class="avatar" src="https://neilson.buzz/images/avatar.png?v=1726459399423" alt="">
+  </a>
+  <h1 class="site-title">
+    Neilson Dou
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              据报道称“浏览器内核有上千万行代码”，浏览器内核真的很复杂吗？
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-05-03
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>好问题，我举个小例子，markdown、pdf、txt这三种格式互转，看起来很简单吧，只堆正则就能实现，但是你要真自己用正则去实现呢，就会发现大量的上下兼容问题等稀奇古怪的各种问题。<br>
+浏览器也是这么个东西，也是把一种格式渲染成可视化的界面展现给用户，通信我不懂，但是我明白要把各种稀奇古怪的前端，渲染成美观的界面，这里面可不止有兼容性的问题，还可能有各种各样的问题，做浏览器内核也就是面对这一堆可能存在的稀奇古怪的问题，可以说是面向用例编程了，所以才这么复杂。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://neilson.buzz/post/guan-yu-min-zhu-li-lun-de-ke-pu/">
+              <h3 class="post-title">
+                关于民主理论的科普
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  知乎 老窦
+  <a class="rss" href="https://neilson.buzz/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

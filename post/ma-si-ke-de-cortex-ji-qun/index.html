@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>关于马斯克的Cortex集群 | Neilson Dou</title>
+<link rel="shortcut icon" href="https://neilson.buzz/favicon.ico?v=1726459399423">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://neilson.buzz/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="关于马斯克的Cortex集群 | Neilson Dou - Atom Feed" href="https://neilson.buzz/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="现在的各种 llm、生成式ai，到最后肯定是这样一个结局，随着不断的堆算力、卷效能，一部分现在已经落地的应用肯定会逐渐的成为我们生活、工作的一部分。
+就像十年前有人提应用平台化，肯定觉得是个新鲜东西，但是现在呢，各种类型的应有都多多少少集成..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://neilson.buzz">
+  <img class="avatar" src="https://neilson.buzz/images/avatar.png?v=1726459399423" alt="">
+  </a>
+  <h1 class="site-title">
+    Neilson Dou
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              关于马斯克的Cortex集群
+            </h2>
+            <div class="post-info">
+              <span>
+                2024-08-31
+              </span>
+              <span>
+                2 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>现在的各种 llm、生成式ai，到最后肯定是这样一个结局，随着不断的堆算力、卷效能，一部分现在已经落地的应用肯定会逐渐的成为我们生活、工作的一部分。<br>
+就像十年前有人提应用平台化，肯定觉得是个新鲜东西，但是现在呢，各种类型的应有都多多少少集成了各种小程序，或者本身就是一个webview，随便拎出来一个应用都可以作为各种其他类型应用的平替。大模型也会是这样，社交软件、工作平台肯定也会集成这种东西，到时候用各种应用的同时就会像吃饭喝水一样用大模型来做各种事了。<br>
+现在的各种所谓堆算力、组各种各样的集群，不是为了把大模型参数拉的更高，就是进一步推动各种2c应用的落地，技术上离agi还远了去了，我们不应该去盼着有一个agi能够替代我们的脑力和体力劳动，这离我们还是太远了，能见到的就是生成式ai下个人生产力的提高、新的生活方式、工作方式。真想靠现在的大模型把agi的泡泡吹起来，就是沙堤上建起来混凝土房子，早晚都是个死。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://neilson.buzz/post/dai-yun-xing-chan-ye-he-ren-quan/">
+              <h3 class="post-title">
+                代孕、性产业和人权
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  知乎 老窦
+  <a class="rss" href="https://neilson.buzz/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>关于 | Neilson Dou</title>
+<link rel="shortcut icon" href="https://neilson.buzz/favicon.ico?v=1726459399423">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://neilson.buzz/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="关于 | Neilson Dou - Atom Feed" href="https://neilson.buzz/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+五年全栈开发经验的工程师，对各种新事物都很感兴趣。
+曾主导或参与开发多个项目，涵盖加密算法、安全测试、工业设计等领域，曾独立开发维护一个在线图书馆。
+政治学者，著有《全球范围内的国家起源》、《近代中国民主转型论争》等作，自译《通往奴役之路..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://neilson.buzz">
+  <img class="avatar" src="https://neilson.buzz/images/avatar.png?v=1726459399423" alt="">
+  </a>
+  <h1 class="site-title">
+    Neilson Dou
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              关于
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-04-17
+              </span>
+              <span>
+                2 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <!-- more -->
+<p>五年全栈开发经验的工程师，对各种新事物都很感兴趣。<br>
+曾主导或参与开发多个项目，涵盖加密算法、安全测试、工业设计等领域，曾独立开发维护一个在线图书馆。<br>
+政治学者，著有《全球范围内的国家起源》、《近代中国民主转型论争》等作，自译《通往奴役之路》（The Road to Serfdom）、《公民的批判意识：对民主政府的支持》（Critical Citizens Global Support for Democratic Government Pippa Norris）。</p>
+<!-- more -->
+<p>关于本站<br>
+为站长在2018-2024年间开设的个人博客的镜像，只留存纪念用，因为各种原因，原站数百条评论与数十万字的内容已遗失。</p>
+<!-- more -->
+<p>时间线<br>
+2018年，本站建立于neocities<br>
+2020年三月，本站拥有第一个域名<br>
+2020年六月，本站转用dynadot托管，作为个人介绍页<br>
+2020年七月，转用github pages<br>
+2020年七月底，本站转用gitee pages<br>
+2021年五月，本站开始作为个人博客分享一些小文章<br>
+2021年十月，博客页面重写，增加内容<br>
+2021年十一月，改用publii工具提交博客页<br>
+2022年四月，开设blogspot分站，浏览量过万<br>
+2022年七月，域名下线<br>
+2022年十月，用cloudflare重新上线旧页面<br>
+2023年年底，blogspot站点删除了原分享内容，改为个人付费专栏站<br>
+2023年12月17日，自2018年到2023年数个站点累计访问量突破百万</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  知乎 老窦
+  <a class="rss" href="https://neilson.buzz/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
