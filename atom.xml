@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://neilsondou.me</id>
+    <title>Neilson Dou</title>
+    <updated>2024-12-02T15:55:31.094Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://neilsondou.me"/>
+    <link rel="self" href="https://neilsondou.me/atom.xml"/>
+    <subtitle>窦天阳的博客</subtitle>
+    <logo>https://neilsondou.me/images/avatar.png</logo>
+    <icon>https://neilsondou.me/favicon.ico</icon>
+    <rights>All rights reserved 2024, Neilson Dou</rights>
+    <entry>
+        <title type="html"><![CDATA[问答：知识分子在描述自然科学的时候为什么就不能采取老百姓的话语体系，好像都不爱说人话，故意制造的信息壁垒？]]></title>
+        <id>https://neilsondou.me/post/wen-da-zhi-shi-fen-zi-zai-miao-shu-zi-ran-ke-xue-de-shi-hou-wei-shi-me-jiu-bu-neng-cai-qu-lao-bai-xing-de-hua-yu-ti-xi-hao-xiang-du-bu-ai-shuo-ren-hua-gu-yi-zhi-zao-de-xin-xi-bi-lei/</id>
+        <link href="https://neilsondou.me/post/wen-da-zhi-shi-fen-zi-zai-miao-shu-zi-ran-ke-xue-de-shi-hou-wei-shi-me-jiu-bu-neng-cai-qu-lao-bai-xing-de-hua-yu-ti-xi-hao-xiang-du-bu-ai-shuo-ren-hua-gu-yi-zhi-zao-de-xin-xi-bi-lei/">
+        </link>
+        <updated>2024-12-02T15:48:57.000Z</updated>
+        <content type="html"><![CDATA[<p>”比如很多学术论文晦涩难懂，滥用数学工具，老百姓想要获取学习和使用都很难，故意制造人为的信息壁垒，这样对于知识的普及传播真的有好处吗？只是真的实在造福各行各业吗？还是本质只是在维护一个看似「高人一等」的阶级？“</p>
+<p>这个你认为的信息壁垒防的就是你这样的人，举个例子比如律师行业，之所以有很多所谓行业语言，目的就是为了塑造一种信息壁垒，把行内人和行外人隔离开，让不专业的意见无法干扰专业意见。</p>
+<p>不采取老百姓的话语体系正是因为这些专家并不是老百姓，各个行业里都有自己的专业话术、专业名词，一个用专有名词就可表达但老百姓看不懂，和一个更通俗更长更啰嗦才能表达但老百姓能看懂，在学术上大家都会选择前者，因为论文写出来本来就不是给老百姓看的。但这只是在某些情况下成立，有时候这些专有名词也确实令人困惑。</p>
+<p>滥用数学工具是什么意思我没看懂，大多数学科，包括社会科学中，量化研究都是极为普遍并且几乎是大多学科中主流的研究方式，什么叫滥用呢。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欢迎使用Tradmin工具箱]]></title>
+        <id>https://neilsondou.me/post/Tradmin/</id>
+        <link href="https://neilsondou.me/post/Tradmin/">
+        </link>
+        <updated>2024-11-27T13:07:25.000Z</updated>
+        <content type="html"><![CDATA[<p>下面是软件截图<br>
+截图1<br>
+<img src="https://neilsondou.me/post-images/1732885814914.png" alt="" loading="lazy"><br>
+截图2<br>
+<img src="https://neilsondou.me/post-images/1732885828610.png" alt="" loading="lazy"><br>
+截图3<br>
+<img src="https://neilsondou.me/post-images/1732885834716.png" alt="" loading="lazy"><br>
+截图4<br>
+<img src="https://neilsondou.me/post-images/1732885841020.png" alt="" loading="lazy"></p>
+<p>程序当前为测试版，包含快捷方便的简单系统维护、安全审计等功能，后续功能会慢慢添加<br>
+下载地址：待更新</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于飞牛私有云 fnOS]]></title>
+        <id>https://neilsondou.me/post/fei-niu-si-you-yun-fnos/</id>
+        <link href="https://neilsondou.me/post/fei-niu-si-you-yun-fnos/">
+        </link>
+        <updated>2024-09-01T12:05:54.000Z</updated>
+        <content type="html"><![CDATA[<p>我要没记错的话debian是GPL许可证吧，那为什么这个基于debian的系统不开源？v2ex上有也有网友在问这个问题。不开源还则罢了，国产厂商+企业服务+这样的一段解释：</p>
+<p>“我们深信NAS的核心是系统，我们将会持续打造差异化、好用易用、安全稳定NAS系统，这才是公司生存之根本。爱折腾的用户可以diy硬件，不爱折腾的用户可以因为口碑好购买我们后续出的硬件，前期我们会将大头的营销成本都花在产品打磨和迭代上。<br>
+飞牛会免费提供 fnOS 给所有国内用户使用（中文版），针对现在已有的功能都不会收取费用，终生免费使用，大家觉得产品好，就多给我们提意见，多宣传和支持我们。<br>
+关于服务器中转服务，我们提供免费的有一定限制速度的带宽。针对需要高带宽需求，会收取一定带宽成本，具体费用规则我们后续会根据实际情况评估成本。如果免费提供高速中转，用户量一上来长期使用的成本对我们压力巨大，望大家见谅。强烈鼓励大家开通ipv6，就不需要付任何费用了，又能享受高速。<br>
+我们后续会针对海外开发国际多语言版本，并会进行收费。<br>
+我们创始团队都是NAS超级发烧友，等了几年都没有遇到好的可灵活安装的nas系统，我们自身也有这个资金实力保证团队心无旁骛地做好产品。好的产品是果，团队是因，顶级人才是基础，我们也会始终保持小而精的团队，极高的人才密集度，迭代出全球顶级产品。”</p>
+<p>随便你怎么搞，我是不敢用的，但是多多少少也比用黑群晖要好一点。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于马斯克的Cortex集群]]></title>
+        <id>https://neilsondou.me/post/ma-si-ke-de-cortex-ji-qun/</id>
+        <link href="https://neilsondou.me/post/ma-si-ke-de-cortex-ji-qun/">
+        </link>
+        <updated>2024-08-31T11:05:37.000Z</updated>
+        <content type="html"><![CDATA[<p>现在的各种 llm、生成式ai，到最后肯定是这样一个结局，随着不断的堆算力、卷效能，一部分现在已经落地的应用肯定会逐渐的成为我们生活、工作的一部分。<br>
+就像十年前有人提应用平台化，肯定觉得是个新鲜东西，但是现在呢，各种类型的应有都多多少少集成了各种小程序，或者本身就是一个webview，随便拎出来一个应用都可以作为各种其他类型应用的平替。大模型也会是这样，社交软件、工作平台肯定也会集成这种东西，到时候用各种应用的同时就会像吃饭喝水一样用大模型来做各种事了。<br>
+现在的各种所谓堆算力、组各种各样的集群，不是为了把大模型参数拉的更高，就是进一步推动各种2c应用的落地，技术上离agi还远了去了，我们不应该去盼着有一个agi能够替代我们的脑力和体力劳动，这离我们还是太远了，能见到的就是生成式ai下个人生产力的提高、新的生活方式、工作方式。真想靠现在的大模型把agi的泡泡吹起来，就是沙堤上建起来混凝土房子，早晚都是个死。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[代孕、性产业和人权]]></title>
+        <id>https://neilsondou.me/post/dai-yun-xing-chan-ye-he-ren-quan/</id>
+        <link href="https://neilsondou.me/post/dai-yun-xing-chan-ye-he-ren-quan/">
+        </link>
+        <updated>2024-08-04T18:48:31.000Z</updated>
+        <content type="html"><![CDATA[<p>节目很好，但是没有说到点子上，或者说这个问题没有办法细聊，中国、美国、俄罗斯，这三者对代孕、性产业不同的对待方式，是出自三种截然不同的底层逻辑。<br>
+首先是俄罗斯“苏联解体后，色情业在俄罗斯死灰复燃，法律规定妓女卖淫属于违法但非犯罪的行为，针对查获的妓女每次罚款15-20美元不等;只有当妓女卖淫时触犯其它法律条款时才会受到法律追究。俄罗斯的法律对于组织色情行为的中介和个人打击力度很大，但在实际执行过程中非常不力。俄罗斯的色情行业基本上都由黑社会控制，政府在这方面的管制相当松懈，甚至有政府官员和黑社会狼狈为奸，共同经营色情场所。与此相对应，俄罗斯的大多数政治家都认为俄国内有大量远比管理色情业更为重要的工作亟待解决，许多议员甚至认为俄罗斯应当象荷兰和德国一样宣布娼妓业合法。<br>
+可能是历史的缘故，俄罗斯的色情场所主要是打着各种名号的“交友俱乐部”和卡西诺赌场，在各大宾馆，甚至长途列车上(比如从北京开往莫斯科的国际列车在进入俄罗斯境内以后就有妓女上车提供性服务)也都有游莺出没。尤为壮观的是，天气晴好的时候在前往莫斯科шереметиево国际机场的公路沿线停满了各种小型车辆，拉客的妓女则站在路边做出各种挑逗动作。苏联解体以后，俄罗斯色情业泛滥。与其它西方国家不同的是，俄罗斯妓女大都受过高等教育，她们中的大多数都是由于经济拮据，和生活困难的原因而受到黑社会的控制性观念开放以及政府管制的松懈，已成为色情业出口的大国，世界各地都能看到俄罗斯小姐的身影。”<br>
+一方面是苏联解体之后，经济下行导致的色情产业蓬勃发展，政府无力监管，我又想起之前看到的一篇文章，好像叫“我的外婆是斯大林格勒上空的鹰，而我只是个妓女”，虽然好像网络上有人说这篇文章中的内容是捏造的，但是结合其他史料也不难看出，苏联解体后，性产业可能就是大多数独立女性的最终归宿了。<br>
+关于俄罗斯代孕的问题，视频中也有提到“俄罗斯由于受到人口负增长等因素影响，已成为全球为数不多的全境合法代孕的国家。”<br>
+与这套历史驱动、社会因素迫使下产生的逻辑相悖的，是中国政府对性产业和代孕的态度，在视频中王志安和受访者一直在谈人体器官的属权、对人作为一个整体的权利的保护，而这套逻辑实际上在中国是不存在的，与其如视频中讨论出卖身体器官、代孕、性交易是否有悖人权，不如说在一个人作为客体的交易过程中，不论是脑力还是体力，总是要拿自己身体的一部分去进行交易、出卖的，某某去做交易员，出卖的是他的大脑和时间，某某去工地做力工，出卖的是自己的胳膊、腿，出卖一个人的器官是否有悖人权，这是一个伪命题。<br>
+事实上如果我们要问某某以人、其器官、劳动力作为客体交易行为，是否有悖于人权，应该去看交易双方达成的协定，交易中主体为了租用客体的器官，是否付出了与之相匹配的代价，让出了相应的利益。所以在性交易中，付钱的一方单纯的将出卖身体的一方当作工具，与其他形式的脑力、劳动力交易本质上是一样的，有脑力丰富与否、体力充沛与否对应的，性交易当然也有档次之分。<br>
+将妓女（男）物化、工具化很明显不是中国政府这样一个家长式的监管者所关心的，如果真是因为女孩做鸡、男孩做鸭就侵犯了人权，而取缔这样一个产业，那么我觉得从法理上是讲不通的，因为社会中仍然普遍存在一些比起性交易更加侵犯人权、双方交易时互不对等的现象存在，可能这些现象相比于卖淫对个人身体的损害更甚。可能在这样的一种取舍下，比起是否有违人权，中国政府更在意的是监管成本，对性产业的监管成本、对代孕的监管成本，如果在经济下行的情况下，这类通过简单的出卖器官就能获得高额收入的产业体量激增时的监管成本。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[问答：历史学科的底层逻辑是什么？]]></title>
+        <id>https://neilsondou.me/post/wen-da-li-shi-xue-ke-de-di-ceng-luo-ji-shi-shi-me/</id>
+        <link href="https://neilsondou.me/post/wen-da-li-shi-xue-ke-de-di-ceng-luo-ji-shi-shi-me/">
+        </link>
+        <updated>2024-08-04T15:46:34.000Z</updated>
+        <content type="html"><![CDATA[<p>如果非要给历史这个人文学科搞出来一个底层逻辑，那应该就是这样的：不同时间阶段下，推进到不同地理环境下，不同政治体中的国民性、民族性，所产生的某某现象，或某些个体产生的某某现象，其动因、经过、结果、影响。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[截取一段写在自己文库里的一段话]]></title>
+        <id>https://neilsondou.me/post/jie-qu-yi-duan-xie-zai-zi-ji-wen-ku-li-de-yi-duan-hua/</id>
+        <link href="https://neilsondou.me/post/jie-qu-yi-duan-xie-zai-zi-ji-wen-ku-li-de-yi-duan-hua/">
+        </link>
+        <updated>2024-07-18T13:50:55.000Z</updated>
+        <content type="html"><![CDATA[<p>一如 “中国社会科学包括政治学的发展，是以卷入全球化知识体系为前提的，国外成熟的学科体系 与话语霸权、知识世界的再殖民化过程，对致力于自主发展的中国社会科学构成挑战。在此情势 下，专门性知识与整全性知识的共存与冲撞是不可避免的，两者既交叉重叠、又互相砥砺的交锋， 决定了中国社会科学以及政治学学科重塑的走向。” 中所提到的，国外的社科学术体系对国内高等教育、社科研究的影响，从改革开放、1979年邓小平提出“补课”开始， 再到现在中国仍距离建成完整的、与国际接轨的学术体系有一段很长的路，也许在其中作梗的并不是高校的学术氛围与学者接受新事物的能力， 原因的大头或许在国内的学术环境不算开放、迫于各种压力而无法对外来的各种理论进行深入、因地制宜的探讨，而在研究的深度上无法走的太远，一如“比較政治學的一系列理論 框架並不能充分解釋中國的政治，而且研究中國政治的學者也未能從中國這 個「田野」帶給比較政治學足夠大的衝擊。” 中国的社科学者不能在这种环境下基于国情，来完善自己的一套学术体系。到目前为止，也充其说完善了一套自己的话术体系，而话术体系除了宣传，是不能在学术上、现实中起到任何作用的。<br>
+在种种限制之下，不论是研究相关学科的学者，还是作为一名普通百姓，我们如果想要对自己的国家、社会拥有足够的认知和理解， 然后以自己的方式来推动文明的进步，不论是实现政治民主、个人自由、社会法治，来从更大的意义上实现我们政治上的文明与现代化， 在无法参与到政治实践、政治过程前提下的最好方式就是进行阅读，在大多数我们冠以科学的学科中，尤其是社会科学， 如果要进行量化到质化的研究，从而自成一套完整的学术体系，或者仅仅是想要扩充自身的知识面、加深对于社会运行的理解， 这一过程的基石正是足够的阅读量。</p>
+<p>我的愿景也真就是这样的，我希望即使游离在所谓搞学术之外的朋友们，在平时遇到自己不懂的东西，也能够获取到足够大量、详实的社科知识，这是相当重要的。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[问答：国产奥地利学派是不是扭曲了奥地利学派学说的本意？]]></title>
+        <id>https://neilsondou.me/post/wen-da-guo-chan-ao-di-li-xue-pai-shi-bu-shi-niu-qu-liao-ao-di-li-xue-pai-xue-shuo-de-ben-yi/</id>
+        <link href="https://neilsondou.me/post/wen-da-guo-chan-ao-di-li-xue-pai-shi-bu-shi-niu-qu-liao-ao-di-li-xue-pai-xue-shuo-de-ben-yi/">
+        </link>
+        <updated>2024-07-09T15:47:24.000Z</updated>
+        <content type="html"><![CDATA[<p>1、奥派本身并不具有社会达尔文主义色彩，奥派全称奥地利经济学派，这是一门经济学，不是社会学，经济学理论本身怎么会有某种社会学才有具有的色彩。你说的这些问题是奥派中一个人物所言，而非奥派经济学本身所要阐述的问题。</p>
+<p>2、如果你读过罗斯巴德其著作，尤其是有关经济学史的那三本，就不难发现他很喜欢擅发暴论，尤其是他对马克思本人而非马克思经济学的攻讦，某种意义上违背了作为学者最基本的治学精神，我作为奥派也是不太看得起罗斯巴德的。</p>
+<p>3、你要问国奥为什么会变成那样，是因为国奥这些人，学者多是改开的坚决拥护者，坚持要把奥派与其意识形态化的理论套到改开后的中国身上，民间的国奥则大多数没有经济学基础，没有经受过一点学术训练，他们口中的奥地利经济学多是他们自己幻想出来的经济学，用对待红宝书的态度去对待奥派的著作，而非对其理论进行理性的解读。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欢迎访问我的网站]]></title>
+        <id>https://neilsondou.me/post/huan-ying-fang-wen-zhong-wen-zheng-shi-wen-ku/</id>
+        <link href="https://neilsondou.me/post/huan-ying-fang-wen-zhong-wen-zheng-shi-wen-ku/">
+        </link>
+        <updated>2024-03-06T04:27:20.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<p>会不定时更新一些简短的想法。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最近大语言模型很火]]></title>
+        <id>https://neilsondou.me/post/zui-jin-da-yu-yan-mo-xing-hen-huo/</id>
+        <link href="https://neilsondou.me/post/zui-jin-da-yu-yan-mo-xing-hen-huo/">
+        </link>
+        <updated>2022-12-07T13:41:12.000Z</updated>
+        <content type="html"><![CDATA[<p>好东西，以后文科生恐怕是要失业了，都是背书，能背过ai吗。<br>
+大语言模型是会遗忘，是会给出假信息，但如果这个大语言模型参数大到你问的所有问题都属于它的常识呢，如果再集成进去一个数据库呢，很难想象以后会是什么样的。<br>
+竟然有人说大模型的爆火会拉涨华为鲲鹏的概念股？？你有钱为什么不去买NVIDIA，现在硬件能供给算力的好像只有这一家吧。</p>
+]]></content>
+    </entry>
+</feed>

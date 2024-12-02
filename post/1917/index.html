@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>1917 | Neilson Dou</title>
+<link rel="shortcut icon" href="https://neilsondou.me/favicon.ico?v=1733154927539">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://neilsondou.me/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="1917 | Neilson Dou - Atom Feed" href="https://neilsondou.me/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="好电影肯定是好电影，也不能说拖沓，就是冗长，电影的内核也不用说了，单纯的刻画战争中小兵的命运，对于所谓反战内核的表现至多也止步与对个人的刻画，对战争本身的反思也就是提了两笔，当然也可以说整部电影都是对战争的反思。
+电影的主角是英国人，我就想..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://neilsondou.me">
+  <img class="avatar" src="https://neilsondou.me/images/avatar.png?v=1733154927539" alt="">
+  </a>
+  <h1 class="site-title">
+    Neilson Dou
+  </h1>
+  <p class="site-description">
+    窦天阳的博客
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              1917
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-08-14
+              </span>
+              <span>
+                2 min read
+              </span>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://neilsondou.me/post-images/1917.png" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>好电影肯定是好电影，也不能说拖沓，就是冗长，电影的内核也不用说了，单纯的刻画战争中小兵的命运，对于所谓反战内核的表现至多也止步与对个人的刻画，对战争本身的反思也就是提了两笔，当然也可以说整部电影都是对战争的反思。</p>
+<p>电影的主角是英国人，我就想起来历史学家保罗肯尼迪写的《英德对抗的兴起》，作者在里面讲，真正腰围一战负责的是德国鲁莽的外交政策和英国人不计后果的回应。我觉得这个鲁莽的外交政策的动因是德国人对英国、俄国，在地缘上、经济上、制度上的恐惧，结果就是一战，到后面结下的梁子，也埋下了二战的种子。</p>
+<p>也许看完这部电影，在对战争感到恐惧的同时，我们也能在历史中看到其他战争中与一战类似的逻辑，主权国一旦被历史推向了某个高潮，那么再精明的政客，再优越的制度都会在风口浪尖中像个孩子一样瑟瑟发抖。尤其是已经过了快一百多年，如果现在的哪个国家被推向了历史的高潮，而必须去面对一些历史的麻烦，那他就要想好了，现代战争是不是自己能承担的起的。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  知乎 老窦
+  <a class="rss" href="https://neilsondou.me/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
