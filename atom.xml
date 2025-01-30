@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://neilsondou.me</id>
+    <title>老窦</title>
+    <updated>2025-01-30T08:56:07.671Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://neilsondou.me"/>
+    <link rel="self" href="https://neilsondou.me/atom.xml"/>
+    <logo>https://neilsondou.me/images/avatar.png</logo>
+    <icon>https://neilsondou.me/favicon.ico</icon>
+    <rights>All rights reserved 2025, 老窦</rights>
+    <entry>
+        <title type="html"><![CDATA[“民主的”AI是美国人提出的一个很大的伪概念]]></title>
+        <id>https://neilsondou.me/post/min-zhu-de-ai-shi-yi-ge-hen-da-de-wei-gai-nian/</id>
+        <link href="https://neilsondou.me/post/min-zhu-de-ai-shi-yi-ge-hen-da-de-wei-gai-nian/">
+        </link>
+        <updated>2025-01-30T08:44:06.000Z</updated>
+        <content type="html"><![CDATA[<p>https://www.cbsnews.com/news/deepseek-ai-raises-national-security-concerns-trump/</p>
+<p>在这篇报道中提到了几个问题：</p>
+<p>Security threat for users<br>
+While the calls from Moolenaar could be the first inkling of a possible congressional crackdown, Ross Burley — a co-founder of the nonprofit Centre for Information Resilience — warned that DeepSeek's emergence in the U.S. raises data security and privacy issues for users. Chinese law grants Beijing broad authority to access data from companies based in China.<br>
+&quot;More and more people will use it, and that will open the door to more and more personal data just being given away to the [Chinese Communist Party] and being sent basically to mainland China to be able to inform them of their activities,&quot; Burley told CBS News.<br>
+&quot;What they'll use it for is behavior change campaigns, disinformation campaigns, for really targeted messaging as to what Western audiences like, what they do,&quot; he added.<br>
+DeepSeek, which is based in the Chinese city of Hangzhou, notes in its privacy policy that the personal information it collects from users is held &quot;on secure servers located in the People's Republic of China.&quot;<br>
+Under that policy, the company says it collects information including users' &quot;device model, operating system, keystroke patterns or rhythms, IP address, and system language.&quot; DeepSeek also collects &quot;service-related, diagnostic, and performance information, including crash reports and performance logs,&quot; according to the company.</p>
+<p>对用户的安全威胁<br>
+虽然莫勒纳尔的呼吁可能是国会可能采取严厉措施的初步迹象，但非营利性信息复原中心的联合创始人罗斯·伯利 (Ross Burley) 警告称，DeepSeek 在美国的出现会给用户带来数据安全和隐私问题。中国法律赋予北京广泛的权力，可以访问中国公司的数据。<br>
+伯利对哥伦比亚广播公司新闻台 (CBS News) 表示：“越来越多的人会使用它，这将导致越来越多的个人数据被提供给（中国共产党），并被发送到中国大陆，以便告知其活动。”<br>
+他补充道：“他们会利用这些来开展行为改变运动和虚假宣传运动，以真正有针对性地传达西方观众的喜好和行为。”<br>
+总部位于中国杭州的 DeepSeek 在其隐私政策中指出，其从用户那里收集的个人信息“保存在位于中华人民共和国的安全服务器上”。<br>
+根据该 政策，该公司表示，它收集的信息包括用户的“设备型号、操作系统、按键模式或节奏、IP 地址和系统语言”。DeepSeek 还收集“与服务相关的、诊断的和性能的信息，包括崩溃报告和性能日志”。</p>
+<p>这里就提到了从大语言模型诞生以来一直比较被关注的一个问题，就是国界之间的AI信息安全，其实用常理来推断，deepseek的网页端服务在美国不会有多少用户的，美国人已经用了好几年的chatgpt和calude，已经对这两家的服务产生了依赖，再加上他们对隐私的看重，或许国外大多数人都只是看看尝尝鲜，只有搞技术的会把模型down下来，自己部署。没人用的情况下，能泄露多少隐私给中国呢。</p>
+<p>另外一个就是审查制度，哪里的大语言模型都会有审查制度，审查力度轻重罢了，而且美国人明知道我们国家互联网审查制度就是这样的，而且一直是这样的，还要在deepseek火起来之后把这个问题拿出来翻炒，想知道被审查的信息可以去wikipedia啊。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大模型的回复、思维链中出现多语言混合的问题]]></title>
+        <id>https://neilsondou.me/post/da-mo-xing-de-hui-fu-si-wei-lian-zhong-chu-xian-duo-yu-yan-hun-he-de-wen-ti/</id>
+        <link href="https://neilsondou.me/post/da-mo-xing-de-hui-fu-si-wei-lian-zhong-chu-xian-duo-yu-yan-hun-he-de-wen-ti/">
+        </link>
+        <updated>2025-01-23T05:00:44.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://neilsondou.me/post-images/1737608470903.png" alt="" loading="lazy"></figure>
+<p>这个奖励机制我不明白是怎么实现的，但是使用下来效果很好，相比上一代确实少了很多类似的状况</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于英伟达最新的Cosmos]]></title>
+        <id>https://neilsondou.me/post/guan-yu-ying-wei-da-zui-xin-de-cosmos/</id>
+        <link href="https://neilsondou.me/post/guan-yu-ying-wei-da-zui-xin-de-cosmos/">
+        </link>
+        <updated>2025-01-15T09:20:16.000Z</updated>
+        <content type="html"><![CDATA[<p>sora刚出来的时候都在说，文生视频这个东西最大的用处是在训练生产环节中的ai时，可以提供大量生成的素材，Cosmos应该是这个领域出现的第一个平台，有条件能部署这个的人也基本都说这个平台比较好用，但是现阶段一些基础功能还有待完善，很看好他的发展。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网站这种模式是不是正在被中文互联网淘汰？说说我的看法]]></title>
+        <id>https://neilsondou.me/post/wen-da-da-jia-du-bu-zuo-wang-zhan-liao-ma/</id>
+        <link href="https://neilsondou.me/post/wen-da-da-jia-du-bu-zuo-wang-zhan-liao-ma/">
+        </link>
+        <updated>2025-01-08T19:01:37.000Z</updated>
+        <content type="html"><![CDATA[<p>对知乎问题：大家都不做网站了吗？的回答</p>
+<p>根据统计数据我们知道现如今域名数还有3160万个，网站数还有388万个。高峰期2017年网站数533万个，相比较2019年的497万个，截止2023年12月网站数只有388万个，的确网站数减少了100多万个。</p>
+<p>我做网站很多年了，包括这个网站，从2018年到现在，总共七八年。小一点的网站，比如给什么项目做展示页我也帮人做过，各种博客我也搞过，之前用go做过一套很方便的博客管理系统，大一点的项目也做过一个在线图书馆，为了推广这些网站仔细的研究过seo和sem这些东西。</p>
+<p>在2021年，家里人要做一个小项目，我说做成网站的话，掏钱买个域名服务器，前端后端一套下来我一天就能搞定，但这位来了一句：网站这个过时的东西现在谁还看啊，都用小程序，微信一点就打开了，多方便啊，比手机app还要方便。当时我不以为意，并不认为小程序这种和网站同质的东西可以替代网站，只认为某些重度依赖于微信生态的人会频繁的使用小程序而非网站或手机app。现在看来也是如此，小程序这个东西推广了这么多年也是不温不火，可能只有在微信群中发一个文档，才有人才会图方便去用小程序直接查看编辑，网站和手机app的一些功用仍然是不可替代的。</p>
+<p>然而吸引用户的并不是小程序，让网站这种模式逐渐被非刚需化，甚至边缘化的一直都是移动端的app，换句话来说是移动端的应用对于大厂来说可以带来更多流量和收益，所以厂商更偏向于让用户去手机上下载一个app，在里面提供服务，而不是用传统的网站来解决用户的所有需求，现在大多数的厂商都在做这种事，网页端提供的服务往往是很有限的，必须下载一个app才能正常使用。</p>
+<p>如果我们要问网站这种模式是不是正在被手机端app淘汰这个问题，那要考虑的方面可能比较多，pc设备普及率、移动端市场占有率、生态、聚合甚至隐私，都是厂商在选择优先做哪个市场时要考虑的东西。我们不想这么多，就从两个方面来看这个问题，就是像我一样的站长和用户。</p>
+<p>已经2025年了，做一个可以上线盈利的网站的门槛已经不能低到再低了，前有阿里云腾讯云提供各种低价解决方案，后有cloudflare这种良心公司为小企业和小开发者提供免费服务，再加上有各种ai，域名你想实名就去阿里腾讯买，不想实名就从godaddy和dynadot买，成套的解决方案可以让站长用极短的时间实现自己的想法，即使上了生产环境也用不着花很多钱。肯定不是因为做网站成本太高了大家才都不做了的。</p>
+<p>推广方面，seo和移动端app的推广相比，我还是觉得seo更方便一点，成本也低一点，移动端的app要想让所有人知道有这个东西，除了传统的推广方式，在短视频平台推广、社交媒体上推广各种各样的渠道，除了要接触各种厂商，还要花不少钱，具体的收效我是不了解的。</p>
+<p>生态方面，网页可以引入各家sdk扫码登陆，和手机app点一下一键登录，可能是慢了一点，但也不至于用户就因为需要打开手机扫一下码，就去找平替了吧，网站没法进入移动端生态这个肯定也是不成立的。</p>
+<p>相对不方便的就是国内空间是实名和审查，这个问题不提也罢，毕竟我的网站就没有实名。</p>
+<p>所以开发者们不是因为网站难做而不去做他的，问题肯定出在用户的使用习惯上，可能一方面，国内使用移动设备的用户要比使用pc的用户要多很多，或者在日常生活中使用常用服务的用户更喜欢用移动端设备而非pc，这是废话，因为大家在聊天的时候肯定喜欢用手机去聊，而非电脑，这是设备的属性。</p>
+<p>在这个问题下还有一个答案，是这么说的<br>
+“中文互联网生态就像几棵大树（APP)遮天蔽日，树下寸草(网站）不生。因为流量全被垄断了，加上百毒的竭泽而渔，国内的网站确实是以断崖式的速度在减少，比出生率下降还快，因为看不到希望。但国外则是另一番景象，独立站依然是互联网生态的基本盘，可以说是基因，每年都在大幅度增长，从Google的市值变化就能管中窥豹，Google和百毒的数据对比侧面反映了国内和国外独立站生存发展的现状。网站依然可以做，而且可以说是个体创业门槛最低的数字杠杆，关键在于要抬头看路，不要只知道埋头拉车。”</p>
+<p>那么我觉得，如果要想搞明白为什么国内和国外互联网出现了差别，在仅有实名备案这种无伤大雅的问题下，就要搞明白国内外用户的使用习惯的差别，我们还是来看看外国人怎么说。</p>
+<p>· 大家都用网站的原因是网站可以被谷歌索引<br>
+· 有数据显示了应用程序趋势，而且结论已经存在一段时间了。大多数人不会安装新应用程序。他们只使用他们一直使用的一小部分应用程序，几乎从不安装任何应用程序。让人们这样做非常困难，而应用商店的可见性是一个巨大的障碍。<br>
+· 许多真正推动应用程序的服务是在应用程序出现之前就已经存在的<br>
+· 太多应用程序都是无用的。我安装了 IMDB 应用程序，发现它与网站基本相同，然后卸载了它。它有什么用呢？所以现在如果某些信息只能通过应用程序获得，我会重新考虑我是否真的想要这些信息。<br>
+· 如果你是一家小公司，并且用户不会频繁使用你的服务，那么他们可能不会费心安装你的应用程序。<br>
+· 很多人根本不喜欢应用程序，并且会尽可能避免使用它们（我就是其中之一），因为他们不喜欢安装那么多东西，而且第一次使用后往往毫无用处。</p>
+<p>那么看了一些人的观点，我觉得问题可能主要就出在谷歌和抖音上，国外相对比较重度依赖谷歌，比起通过我们喜欢先打开短视频平台搜索自己所需的信息，国外更偏好谷歌一下，这和我们的百度一下有区别，因为百度的作用是可以被替代的，当百度给用户留下百度查病，癌症起步的这种印象，或者百度无法提供实时的信息时，我们就会逐渐把自己的使用习惯从依赖搜索引擎提供信息转变成去上抖音快手、今日头条上去点一下根据时间排序。谷歌当然无法给你看五分钟前某个小地方发生的某件小事，比如哪里哪里又打架了，更无法提供附属的社交功能，在获取信息的方式上，在抖音上搜一下确实要优于在谷歌上搜一下，而抖音主打的正是移动端，可能绝大多数人都是在手机上看抖音，而非在pc上看，微信等各种im、移动端支付、美团、滴滴、淘宝等同理，国内一些模式上的小创新替代了原有网站的功能，从而让用户产生了路径依赖，就难以离开手机了，更难以舍弃手机去用pc上的服务。</p>
+<p>至于外国人关心的移动端泄露个人隐私问题，在国内都变成了伪命题。国内用户从来不在乎自己的个人隐私，或者无力保护自己的个人隐私，甚至厂商都不在乎用户的个人隐私，形成了数据应用、数据泄露、数据贩卖的链条。</p>
+<p>国内的平台做的也很好，多多少少都带有一点平台聚合，支付宝这样一个支付软件里，可以聊天、打电话、用各种小程序甚至可以养电子宠物，所有国内的app也都要跟着不知道什么时候起来的风，都要在实现自己的核心功能之后，做这些功能，不管冗不冗余、用户用不用，都要有一个，因为别人也有，这个素养是国外的平台所不具备的。🤣</p>
+<p>所以在各种因素作用下，网站这种模式确实是正在被中文互联网淘汰，大多数只用过手机的年轻人，甚至不知道什么是域名，更别提记住自己常用的域名。除了一些移动端用起来实在不方便的功能，比如在线办公、设计这种服务，很多人宁愿去现下载一个移动端app，而非用网站上点一下就能用的功能。</p>
+<p>很难说这种趋势是好还是不好，反正长远来看，如果想在国内就业，学移动端开发的效益肯定要是大于学桌面端和前端的，不要看这两年前端就业形势好像好了一点，就要去学前端，以后新入场的公司，肯定要先做app，再做网站的，甚至可能都不考虑去做网站了，上线一个官网就去搞app了，那还去学前端干嘛。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[重磅发布！轻量级项目管理工具CodifyBox]]></title>
+        <id>https://neilsondou.me/post/chong-bang-fa-bu-qing-liang-ji-xiang-mu-guan-li-gong-ju-codifybox/</id>
+        <link href="https://neilsondou.me/post/chong-bang-fa-bu-qing-liang-ji-xiang-mu-guan-li-gong-ju-codifybox/">
+        </link>
+        <updated>2024-12-25T10:20:23.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://neilsondou.me/post-images/1735122090559.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://neilsondou.me/post-images/1735122093237.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://neilsondou.me/post-images/1735122096497.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://neilsondou.me/post-images/1735122099350.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://neilsondou.me/post-images/1735122101524.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://neilsondou.me/post-images/1735122151375.png" alt="" loading="lazy"></figure>
+<p>包含如图各种功能，下载地址<br>
+https://cowtransfer.com/s/b969590eeba741 点击链接查看 [ Codify Box.exe ] ，或访问奶牛快传 cowtransfer.com 输入传输口令 wqm02q 查看；</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[问答：知识分子在描述自然科学的时候为什么就不能采取老百姓的话语体系，好像都不爱说人话，故意制造的信息壁垒？]]></title>
+        <id>https://neilsondou.me/post/wen-da-zhi-shi-fen-zi-zai-miao-shu-zi-ran-ke-xue-de-shi-hou-wei-shi-me-jiu-bu-neng-cai-qu-lao-bai-xing-de-hua-yu-ti-xi-hao-xiang-du-bu-ai-shuo-ren-hua-gu-yi-zhi-zao-de-xin-xi-bi-lei/</id>
+        <link href="https://neilsondou.me/post/wen-da-zhi-shi-fen-zi-zai-miao-shu-zi-ran-ke-xue-de-shi-hou-wei-shi-me-jiu-bu-neng-cai-qu-lao-bai-xing-de-hua-yu-ti-xi-hao-xiang-du-bu-ai-shuo-ren-hua-gu-yi-zhi-zao-de-xin-xi-bi-lei/">
+        </link>
+        <updated>2024-12-02T15:48:57.000Z</updated>
+        <content type="html"><![CDATA[<p>”比如很多学术论文晦涩难懂，滥用数学工具，老百姓想要获取学习和使用都很难，故意制造人为的信息壁垒，这样对于知识的普及传播真的有好处吗？只是真的实在造福各行各业吗？还是本质只是在维护一个看似「高人一等」的阶级？“</p>
+<p>这个你认为的信息壁垒防的就是你这样的人，举个例子比如律师行业，之所以有很多所谓行业语言，目的就是为了塑造一种信息壁垒，把行内人和行外人隔离开，让不专业的意见无法干扰专业意见。</p>
+<p>不采取老百姓的话语体系正是因为这些专家并不是老百姓，各个行业里都有自己的专业话术、专业名词，一个用专有名词就可表达但老百姓看不懂，和一个更通俗更长更啰嗦才能表达但老百姓能看懂，在学术上大家都会选择前者，因为论文写出来本来就不是给老百姓看的。但这只是在某些情况下成立，有时候这些专有名词也确实令人困惑。</p>
+<p>滥用数学工具是什么意思我没看懂，大多数学科，包括社会科学中，量化研究都是极为普遍并且几乎是大多学科中主流的研究方式，什么叫滥用呢。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欢迎使用Tradmin工具箱]]></title>
+        <id>https://neilsondou.me/post/Tradmin/</id>
+        <link href="https://neilsondou.me/post/Tradmin/">
+        </link>
+        <updated>2024-11-27T13:07:25.000Z</updated>
+        <content type="html"><![CDATA[<p>下面是软件截图<br>
+截图1<br>
+<img src="https://neilsondou.me/post-images/1732885814914.png" alt="" loading="lazy"><br>
+截图2<br>
+<img src="https://neilsondou.me/post-images/1732885828610.png" alt="" loading="lazy"><br>
+截图3<br>
+<img src="https://neilsondou.me/post-images/1732885834716.png" alt="" loading="lazy"><br>
+截图4<br>
+<img src="https://neilsondou.me/post-images/1732885841020.png" alt="" loading="lazy"></p>
+<p>程序当前为测试版，包含快捷方便的简单系统维护、安全审计等功能，后续功能会慢慢添加<br>
+下载地址：待更新</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于飞牛私有云 fnOS]]></title>
+        <id>https://neilsondou.me/post/fei-niu-si-you-yun-fnos/</id>
+        <link href="https://neilsondou.me/post/fei-niu-si-you-yun-fnos/">
+        </link>
+        <updated>2024-09-01T12:05:54.000Z</updated>
+        <content type="html"><![CDATA[<p>我要没记错的话debian是GPL许可证吧，那为什么这个基于debian的系统不开源？v2ex上有也有网友在问这个问题。不开源还则罢了，国产厂商+企业服务+这样的一段解释：</p>
+<p>“我们深信NAS的核心是系统，我们将会持续打造差异化、好用易用、安全稳定NAS系统，这才是公司生存之根本。爱折腾的用户可以diy硬件，不爱折腾的用户可以因为口碑好购买我们后续出的硬件，前期我们会将大头的营销成本都花在产品打磨和迭代上。<br>
+飞牛会免费提供 fnOS 给所有国内用户使用（中文版），针对现在已有的功能都不会收取费用，终生免费使用，大家觉得产品好，就多给我们提意见，多宣传和支持我们。<br>
+关于服务器中转服务，我们提供免费的有一定限制速度的带宽。针对需要高带宽需求，会收取一定带宽成本，具体费用规则我们后续会根据实际情况评估成本。如果免费提供高速中转，用户量一上来长期使用的成本对我们压力巨大，望大家见谅。强烈鼓励大家开通ipv6，就不需要付任何费用了，又能享受高速。<br>
+我们后续会针对海外开发国际多语言版本，并会进行收费。<br>
+我们创始团队都是NAS超级发烧友，等了几年都没有遇到好的可灵活安装的nas系统，我们自身也有这个资金实力保证团队心无旁骛地做好产品。好的产品是果，团队是因，顶级人才是基础，我们也会始终保持小而精的团队，极高的人才密集度，迭代出全球顶级产品。”</p>
+<p>随便你怎么搞，我是不敢用的，但是多多少少也比用黑群晖要好一点。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于马斯克的Cortex集群]]></title>
+        <id>https://neilsondou.me/post/ma-si-ke-de-cortex-ji-qun/</id>
+        <link href="https://neilsondou.me/post/ma-si-ke-de-cortex-ji-qun/">
+        </link>
+        <updated>2024-08-31T11:05:37.000Z</updated>
+        <content type="html"><![CDATA[<p>现在的各种 llm、生成式ai，到最后肯定是这样一个结局，随着不断的堆算力、卷效能，一部分现在已经落地的应用肯定会逐渐的成为我们生活、工作的一部分。<br>
+就像十年前有人提应用平台化，肯定觉得是个新鲜东西，但是现在呢，各种类型的应有都多多少少集成了各种小程序，或者本身就是一个webview，随便拎出来一个应用都可以作为各种其他类型应用的平替。大模型也会是这样，社交软件、工作平台肯定也会集成这种东西，到时候用各种应用的同时就会像吃饭喝水一样用大模型来做各种事了。<br>
+现在的各种所谓堆算力、组各种各样的集群，不是为了把大模型参数拉的更高，就是进一步推动各种2c应用的落地，技术上离agi还远了去了，我们不应该去盼着有一个agi能够替代我们的脑力和体力劳动，这离我们还是太远了，能见到的就是生成式ai下个人生产力的提高、新的生活方式、工作方式。真想靠现在的大模型把agi的泡泡吹起来，就是沙堤上建起来混凝土房子，早晚都是个死。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[代孕、性产业和人权]]></title>
+        <id>https://neilsondou.me/post/dai-yun-xing-chan-ye-he-ren-quan/</id>
+        <link href="https://neilsondou.me/post/dai-yun-xing-chan-ye-he-ren-quan/">
+        </link>
+        <updated>2024-08-04T18:48:31.000Z</updated>
+        <content type="html"><![CDATA[<p>节目很好，但是没有说到点子上，或者说这个问题没有办法细聊，中国、美国、俄罗斯，这三者对代孕、性产业不同的对待方式，是出自三种截然不同的底层逻辑。<br>
+首先是俄罗斯“苏联解体后，色情业在俄罗斯死灰复燃，法律规定妓女卖淫属于违法但非犯罪的行为，针对查获的妓女每次罚款15-20美元不等;只有当妓女卖淫时触犯其它法律条款时才会受到法律追究。俄罗斯的法律对于组织色情行为的中介和个人打击力度很大，但在实际执行过程中非常不力。俄罗斯的色情行业基本上都由黑社会控制，政府在这方面的管制相当松懈，甚至有政府官员和黑社会狼狈为奸，共同经营色情场所。与此相对应，俄罗斯的大多数政治家都认为俄国内有大量远比管理色情业更为重要的工作亟待解决，许多议员甚至认为俄罗斯应当象荷兰和德国一样宣布娼妓业合法。<br>
+可能是历史的缘故，俄罗斯的色情场所主要是打着各种名号的“交友俱乐部”和卡西诺赌场，在各大宾馆，甚至长途列车上(比如从北京开往莫斯科的国际列车在进入俄罗斯境内以后就有妓女上车提供性服务)也都有游莺出没。尤为壮观的是，天气晴好的时候在前往莫斯科шереметиево国际机场的公路沿线停满了各种小型车辆，拉客的妓女则站在路边做出各种挑逗动作。苏联解体以后，俄罗斯色情业泛滥。与其它西方国家不同的是，俄罗斯妓女大都受过高等教育，她们中的大多数都是由于经济拮据，和生活困难的原因而受到黑社会的控制性观念开放以及政府管制的松懈，已成为色情业出口的大国，世界各地都能看到俄罗斯小姐的身影。”<br>
+一方面是苏联解体之后，经济下行导致的色情产业蓬勃发展，政府无力监管，我又想起之前看到的一篇文章，好像叫“我的外婆是斯大林格勒上空的鹰，而我只是个妓女”，虽然好像网络上有人说这篇文章中的内容是捏造的，但是结合其他史料也不难看出，苏联解体后，性产业可能就是大多数独立女性的最终归宿了。<br>
+关于俄罗斯代孕的问题，视频中也有提到“俄罗斯由于受到人口负增长等因素影响，已成为全球为数不多的全境合法代孕的国家。”<br>
+与这套历史驱动、社会因素迫使下产生的逻辑相悖的，是中国政府对性产业和代孕的态度，在视频中王志安和受访者一直在谈人体器官的属权、对人作为一个整体的权利的保护，而这套逻辑实际上在中国是不存在的，与其如视频中讨论出卖身体器官、代孕、性交易是否有悖人权，不如说在一个人作为客体的交易过程中，不论是脑力还是体力，总是要拿自己身体的一部分去进行交易、出卖的，某某去做交易员，出卖的是他的大脑和时间，某某去工地做力工，出卖的是自己的胳膊、腿，出卖一个人的器官是否有悖人权，这是一个伪命题。<br>
+事实上如果我们要问某某以人、其器官、劳动力作为客体交易行为，是否有悖于人权，应该去看交易双方达成的协定，交易中主体为了租用客体的器官，是否付出了与之相匹配的代价，让出了相应的利益。所以在性交易中，付钱的一方单纯的将出卖身体的一方当作工具，与其他形式的脑力、劳动力交易本质上是一样的，有脑力丰富与否、体力充沛与否对应的，性交易当然也有档次之分。<br>
+将妓女（男）物化、工具化很明显不是中国政府这样一个家长式的监管者所关心的，如果真是因为女孩做鸡、男孩做鸭就侵犯了人权，而取缔这样一个产业，那么我觉得从法理上是讲不通的，因为社会中仍然普遍存在一些比起性交易更加侵犯人权、双方交易时互不对等的现象存在，可能这些现象相比于卖淫对个人身体的损害更甚。可能在这样的一种取舍下，比起是否有违人权，中国政府更在意的是监管成本，对性产业的监管成本、对代孕的监管成本，如果在经济下行的情况下，这类通过简单的出卖器官就能获得高额收入的产业体量激增时的监管成本。</p>
+]]></content>
+    </entry>
+</feed>
