@@ -1,0 +1,160 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+<meta name="description" content="知乎 窦天阳" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+<title>
+  据报道称“浏览器内核有上千万行代码”，浏览器内核真的很复杂吗？ | 老窦
+</title>
+<link rel="shortcut icon" href="https://neilsondou.me/favicon.ico">
+
+<link rel="stylesheet" href="https://neilsondou.me/styles/main.css">
+<link rel="apple-touch-icon" href="https://neilsondou.me/favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<!-- iconfont -->
+<link href="//at.alicdn.com/t/font_2463772_glcffdg0qau.css" rel="stylesheet" />
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+
+
+            
+</head>
+
+<body>
+  <div class="main">
+    <div class="main-content">
+      <div class="nav-bar">
+  <!-- 首页菜单 -->
+  <div class="menu-container">
+    <a href="https://neilsondou.me/index.html" target="_parent" class="home">
+      <svg class="home-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+        <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z"></path>
+        <path fill="#fff"
+          d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+        </path>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+        </path>
+      </svg>
+      <span class="home-title">Home</span>
+    </a>
+
+    <div class="nav-menu">
+      
+      
+      <a href="/post/about" class="menu">
+        关于
+      </a>
+      
+      
+
+
+
+      <a href="https://neilsondou.me/atom.xml" target="_blank" class="rss">
+        <span class="rss-title">RSS</span>
+        <i class="iconfont icon-rss"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+      <div class="post-detail">
+        <article class="post">
+          
+          <h2 class="post-title">
+            据报道称“浏览器内核有上千万行代码”，浏览器内核真的很复杂吗？
+          </h2>
+
+          <div class="post-info">
+            <svg class="post-date" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+            </svg>
+            <time class="post-time">
+              2022-05-03
+            </time>
+            <svg fill="none" class="view-icon" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z">
+              </path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z">
+              </path>
+            </svg>
+            <span id="/ju-bao-dao-cheng-liu-lan-qi-nei-he-you-shang-qian-wan-xing-dai-ma-liu-lan-qi-nei-he-zhen-de-hen-fu-za/" class="leancloud_visitors" data-flag-title="据报道称“浏览器内核有上千万行代码”，浏览器内核真的很复杂吗？">
+              <span class="leancloud-visitors-count"></span><span> 次阅读</span>
+            </span>
+            <span>
+              1 min read
+            </span>
+          </div>
+
+          
+          <div class="post-content">
+            <p>好问题，我举个小例子，markdown、pdf、txt这三种格式互转，看起来很简单吧，只堆正则就能实现，但是你要真自己用正则去实现呢，就会发现大量的上下兼容问题等稀奇古怪的各种问题。<br>
+浏览器也是这么个东西，也是把一种格式渲染成可视化的界面展现给用户，通信我不懂，但是我明白要把各种稀奇古怪的前端，渲染成美观的界面，这里面可不止有兼容性的问题，还可能有各种各样的问题，做浏览器内核也就是面对这一堆可能存在的稀奇古怪的问题，可以说是面向用例编程了，所以才这么复杂。</p>
+
+          </div>
+        </article>
+      </div>
+
+      <div class="near-post">
+        <div>
+          
+          <div class="prev-post">
+            <div class="prev">上一篇</div>
+            <a href="https://neilsondou.me/post/jian-du-ha-ye-ke-li-xing-jian-gou-de-jian-wang/">
+              <h3 class="post-title">
+                <span>
+                  哈耶克：理性建构的僭妄
+                </span>
+              </h3>
+            </a>
+          </div>
+          
+        </div>
+        <div>
+          
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://neilsondou.me/post/guan-yu-min-zhu-li-lun-de-ke-pu/">
+              <h3 class="post-title">
+                <span>
+                  关于民主理论的科普
+                </span>
+              </h3>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+
+      
+
+      <div class="valine">
+        
+      </div>
+
+      <div class="site-footer">
+  
+  <b>Theme: </b>
+  <a href="//github.com/chiperman/gridea-theme-porky"><b>Porky</b></a
+  ><b> | Powered by </b>
+  <a href="//open.gridea.dev"><b>Gridea</b></a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+    </div>
+  </div>
+</body>
+
+</html>
