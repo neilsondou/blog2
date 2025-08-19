@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://neilsondou.me</id>
+    <title>老窦</title>
+    <updated>2025-08-19T11:52:29.823Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://neilsondou.me"/>
+    <link rel="self" href="https://neilsondou.me/atom.xml"/>
+    <subtitle>知乎 窦天阳 / 由腾讯云EdgeOne驱动</subtitle>
+    <logo>https://neilsondou.me/images/avatar.png</logo>
+    <icon>https://neilsondou.me/favicon.ico</icon>
+    <rights>All rights reserved 2025, 老窦</rights>
+    <entry>
+        <title type="html"><![CDATA[关于Liquid Glass]]></title>
+        <id>https://neilsondou.me/post/guan-yu-liquid-glass/</id>
+        <link href="https://neilsondou.me/post/guan-yu-liquid-glass/">
+        </link>
+        <updated>2025-08-14T19:09:37.000Z</updated>
+        <content type="html"><![CDATA[<p>写于25年6月12日，至今该方案已在最新的ios preview中几乎被取消，但继续探讨苹果提出这种设计范式的动机仍然是有价值的。<br>
+Vision Pro及其后续计划已经表明，苹果将未来视觉交互方案的宝压在了空间融合，或者说融合视觉上，传统的拟物化、扁平化设计在融合视觉上的表现见hololens，突兀且生硬，给用户一种凑合能用的感觉。为了解决这个问题，只能做一套新的设计来提高用户的沉浸感。<br>
+与其说Liquid Glass是为了移动端桌面端而设计，不如说是为了融合视觉而设计。更近于生活中可见物的形体、反射折射与交互效果，放在手机电脑上是多余的，因为人人手中都有手机电脑，而现有的设计范式决定了认知中的手机电脑就应该是这样的，用新的设计理念来代替，只会在降低设备性能的同时，让用户觉得丑。<br>
+许多人在看到Liquid Glass的第一时间，会觉得像老式计算器的塑料按钮，正是这种直觉让这种设计出现在现实中，而非电子设备中更能提供与环境相合的沉浸感，所以我认为苹果提出这种设计，预示其正在着手开发超越Vision Pro的产品，甚至于另一种形态的产品，更着眼于现实中的交互，举个例子，如果家中的玻璃茶几点一下就能亮起来，你觉得是扁平化的ui出现更顺眼，还是Liquid Glass更顺眼？</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[问答：你如何看待盗版书？]]></title>
+        <id>https://neilsondou.me/post/wen-da-ni-ru-he-kan-dai-dao-ban-shu/</id>
+        <link href="https://neilsondou.me/post/wen-da-ni-ru-he-kan-dai-dao-ban-shu/">
+        </link>
+        <updated>2025-08-12T19:15:43.000Z</updated>
+        <content type="html"><![CDATA[<p>我自费做资源分享很多年，做过一个文库网站来分享大量的电子书，不用登录免费下载，都是秉着知识应该被免费分享的理念来做的，从来没有任何盈利的想法。</p>
+<p>我能心安理得的去在网上分享盗版书籍资源，是因为我手中的资源也是聚合其他人的分享，在这个过程中我充其量起到一个传播的作用，而至于这个传播是否会给书籍作者带来不利的影响，影响作者赚钱，我认为电子版的资源并不会影响纸质书籍的销售。</p>
+<p>我在网上读过一些好书后都会买一本纸质版来收藏或供以后翻阅，这种补票也是在现在这个只是获取门槛极其低下的时代中，个人仅所能够做的了。而电子版的资源，我不分享不传播也会有人去其他地方下载，我来分享仅是方便了需要电子书的人群，至于会购买纸质版书籍，而找电子版资源的人，也不会因为我分享盗版资源就不去购买纸质版书籍了，这就和盗版书一样，盗版书的销售也仅仅是方便了财力不济难以购买正版书的人，毕竟书籍是纯粹的知识，不包含任何服务。</p>
+<p>但也有的书只能买盗版的，比如一些实在难以买到或太贵的书，比如很多年前，我要买一本 cissp 的指南，正版一套只在太贵，无奈只能买影印版，或许将来有需要我会再买一套正版补票的。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于Deepseek满血版、模型性能的争议]]></title>
+        <id>https://neilsondou.me/post/guan-yu-deepseek-man-xie-ban-mo-xing-xing-neng-de-zheng-yi1/</id>
+        <link href="https://neilsondou.me/post/guan-yu-deepseek-man-xie-ban-mo-xing-xing-neng-de-zheng-yi1/">
+        </link>
+        <updated>2025-02-26T15:03:11.000Z</updated>
+        <content type="html"><![CDATA[<p>首先明确一点：客观定义上的这个r1模型的满血版，是617b参数、fp8精度且未经过量化蒸馏微调的原生模型，是开源了的，而现在市面上的99%第三方平台提供的deepseek模型都不是满血的，包括几乎所有自称满血版的。<br>
+第三方平台，比如腾讯元宝、硅基流动、腾讯云等等所提供的其实就是算力，但是为了推广让更多人使用，而且钻一下deepseek官网经常无法进行问答的空子，来宣传自己家的平台，如果像colab一样去直接出租算力，首先不说普通用户能不能负担的起时长的浪费、而且不已tokens计算的计费并不符合大模型出现以来一直沿用的收费逻辑。所以这些平台所提供在自己集群上部署的deepseek模型，并且出租或者开放使用大模型的问答这件事本身是合理的商业行为，但是问题就出在这里，如果直接出租算力给用户，那么用户可以选择去部署什么样的模型，可以根据自己的需求和使用场景来部署参数的模型，而这些第三方平台所推出的所谓满血版deepseek模型，实际上是无法验证是不是满血版的，用户无法获取到这些信息。<br>
+经过一些人的测试，腾讯元宝的r1在性能上接近于官方所提供的服务，但是在内容审查，引用内容质量上相较于直接从搜索引擎获取，而从公众号平台上获取，且内容审查机制更加严格，实际上影响了r1模型的原始性能，毕竟公众号平台上的内容相对来说比较少，此外经过测试，在一些需要长思维链推理的问题中，腾讯元宝的r1与deepseek r1相比较为逊色，可以说在严格的内容审查、公众号的信息污染的影响下，腾讯元宝的r1不可以说是满血版，当然这个满血版只是严格意义上的定义，作为广告噱头来说是没问题的。当然这其中也存在着一些腾讯结束deepseek热度抢占ai隐私高地的嫌疑。<br>
+其他各种服务商所提供的r1模型，都与腾讯元宝类似，或多或少因为服务商自身的各种目的，在部署过程中改变信息获取等等机制，对模型自身的性能产生了影响，有的服务商甚至部署了30b的r1模型，骗人说是满血版，该类服务商所提供的服务不应该继续使用。</p>
+<p>那么在哪里能使用到满血版的deepseek模型呢，目前为止只有三种方法：官方api、本地部署、算力租赁，官方的api好像最近在降价，关于怎么去使用可以查看官方文档，或者在python中用下面的方法调用</p>
+<p>import requests</p>
+<h1 id="填写你的-api-key">填写你的 API Key</h1>
+<p>API_KEY = &quot;sk-你的密钥&quot;</p>
+<p>url = &quot;https://api.deepseek.com/chat/completions&quot;<br>
+headers = {<br>
+&quot;Content-Type&quot;: &quot;application/json&quot;,<br>
+&quot;Authorization&quot;: f&quot;Bearer {API_KEY}&quot;<br>
+}</p>
+<p>data = {<br>
+&quot;model&quot;: &quot;deepseek-reasoner&quot;,  # 指定使用 R1 模型（deepseek-reasoner）或者 V3 模型（deepseek-chat）<br>
+&quot;messages&quot;: [<br>
+{&quot;role&quot;: &quot;system&quot;, &quot;content&quot;: &quot;你是一个专业的助手&quot;},<br>
+{&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;你是谁？&quot;}<br>
+],<br>
+&quot;stream&quot;: False  # 关闭流式传输<br>
+}</p>
+<p>response = requests.post(url, headers=headers, json=data)</p>
+<p>if response.status_code == 200:<br>
+result = response.json()<br>
+print(result['choices'][0]['message']['content'])<br>
+else:<br>
+print(&quot;请求失败，错误码：&quot;, response.status_code)</p>
+<p>如果用户想要在本地部署deepseek满血版的话，除了购买几张死贵的英伟达显卡，可以在接受范围内的大概就只有两种方案，一种是买几台macmini，串联起来可以部署满血版的模型，或者通过服务器平台的cpu和大量内存进行部署，但是输出速度感人，目前这个满血版的模型在服务器平台cpu算力的部署中的瓶颈据说在硬盘的读写速度上，有人正在研究把模型存在内存里，该方案有待验证。<br>
+算力租赁的话，有各种服务商可以考虑，但是价格基本不是普通用户能够负担得起的，这里就不举例子了。</p>
+<p>关于deepseek r1模型的性能，远远没有网上吹的那么邪乎，说世界第一，具体的elo可以查看https://openlm.ai/chatbot-arena/，在这个排行中，除了尚未被加入的calude 3.7，deepseek r1的性能排在第五，在chatgpt、geminiexp、gork之下，对于开源大模型来说这个排名已经不错了，但是要做一个大模型，我们在不论性能的前提下首先要考虑的是用户的体验，我从deepseek v2发布开始就一直在使用，一直到deepseek v3、r1开始在互联网上火起来之后，用户体验就直线下滑，官方提供的api响应速度慢，网页上几乎无法使用大模型，从而催生出来各种第三方服务商来提供r1模型给人使用，让人钻了空子，这是deepseek的问题，除此之外，响应速度、大模型幻觉的这些问题仍然存在。到现在为止，deepseek从第一个大模型发布以来，用户体验就从来没有超过chatgpt，除了网络问题，我在高强度使用用chatgpt的时候从来没有出现过任何响应上的问题，这就是下一步deepseek必须要注意的问题了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于“人工智能正在创造一代文盲程序员”]]></title>
+        <id>https://neilsondou.me/post/guan-yu-ren-gong-zhi-neng-zheng-zai-chuang-zao-yi-dai-wen-mang-cheng-xu-yuan/</id>
+        <link href="https://neilsondou.me/post/guan-yu-ren-gong-zhi-neng-zheng-zai-chuang-zao-yi-dai-wen-mang-cheng-xu-yuan/">
+        </link>
+        <updated>2025-02-22T17:57:39.000Z</updated>
+        <content type="html"><![CDATA[<p>来源https://nmn.gl/blog/ai-illiterate-programmers</p>
+<p>这种博文按理说会引起很多人的恐慌，但是我们仔细想想这很多人是哪些人，就不得不面对一个尴尬的事实：对人工智能的依赖，造成程序员技术能力普遍下降的这种可能正在发生的事，水货自然不会恐慌，因为水货本来就水，在ai的辅助下可能是对他技术能力的某种提高。</p>
+<p>而手里真正有技术的人呢，或许会害怕用ai辅助编程的水货会替代自己，但是仔细想想，本来上限就高的一些大能，在普遍都用ai编程的时代，上限也会比水货高，只要他们自己跟上时代，不论未来llm的能不能发展到可以读懂文档、理解复杂算法、具有创造性思维，ai作为一个工具，要比较使用工具的能力，肯定是聪明人更强，所以大能们也不应该感到恐慌。</p>
+<p>那剩下的就只有学生了，现在学计算机类专业的学生知道ai会和自己竞争就业岗位、自己如果天天用ai辅助完成课业，将来出来也是个“文盲程序员”水货吗？肯定是知道的，但是学生是提不起来这个危机意识的，学生时代就是水货和大能分化的时间点，尤其是中国的学生，有极少部分可能真的是在好好学技术的，出来固然有饭吃，剩下的出来也是水货，这大多数将来肯定要成为水货的大学生会去提高自己的意识吗，肯定是不会的。</p>
+<p>所以作为一篇博文，尤其是这种标题就比较劲爆的博文，他首要的目的就是去引起别人的忧患意识，去让更多人恐慌，而所谓的这个人工智能正在创造一代文盲程序员，提不起任何人的恐慌，只要对这几年的ai发展速度有一个大概的认识，就肯定能意识到，这个标题说的事情，在未来肯定是要变成现实的，那既没有人恐慌，也没有人在乎，文盲就文盲呗。</p>
+<p>这两天在做一个类似文明系列的策略游戏，甚至简单的协程我都懒得自己写了，统统交给calude和gemini，只有相对复杂的算法实现我会自己去写。在我的开发工作中ai已经确实占了一大部分比重，帮我分担了很多独立开发中我所难以力及的很多工作。</p>
+<p>当我把文档丢给ai让他去读，然后他自己就能灵活运用各种api的时候，我就一直在想，通过买一本书仔细的去读、去批注来学习一门语言，通过啃源码、看文档去理解一个项目的时候已经过去了，如果现在的学生可以在完成课业任务的同时去好好学会使用ai这么个强大的工具，那可能比认真学一门语言要更有用，从coding到programming这个认识的转变，会让人短暂忘记人工智能正在创造一代文盲程序员这么个事，当所有人都是文盲程序员的时候，也就没人再恐慌了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从deepseek发布以来网上出现的各种反智看法和观点]]></title>
+        <id>https://neilsondou.me/post/cong-deepseek-fa-bu-yi-lai-wang-shang-chu-xian-de-ge-chong-fan-zhi-kan-fa-he-guan-dian/</id>
+        <link href="https://neilsondou.me/post/cong-deepseek-fa-bu-yi-lai-wang-shang-chu-xian-de-ge-chong-fan-zhi-kan-fa-he-guan-dian/">
+        </link>
+        <updated>2025-02-03T10:09:11.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://neilsondou.me/post-images/1738577374036.png" alt="" loading="lazy"><br>
+首先就是这个“没有硝烟的战争：守护我国AI产业新星DeepSeek的83小时保卫战”<br>
+这篇文章看起来像ai写的，类似的大多数文章、看法、观点都是有计算机常识就能看出来是一眼假的，但是大多数人没有计算机常识，这就导致像这种ai写的爽文竟然在社区中很有市场。</p>
+<p>还有就是“DeepSeek甚至绕过了CUDA”，工程师灵魂提问：英伟达护城河还在吗？”<br>
+英伟达的护城河是硬件和cuda生态，用ptx怎么绕过cuda生态呢，ptx本身就是更贴近硬件层的一种作为cuda生态中重要一环的语言</p>
+<p>还有奇安信在deepseek所谓被攻击后跳出来说要如何如何，先要看的问题是deepseek到底被没被攻击，现在已经是2025年了，企业级的网络安全基础设施建设的已经很好了，面对常规的cc、ddos甚至之前github受到的drdos攻击已经不是束手无策的了，我觉得deepseek从发布至今并没有受到过很大流量的攻击，只是服务端资源不够用了，假借受到攻击来达成某种目的。<br>
+到现在为止，deepseek的前端防护仍然是用的cloudflare家的，和360没看出来有什么大关系，奇安信这个公司能帮到什么程度、到底是全方位的推动安全设施完善，还是更大程度上期望借助热度和deepseek达成商业合作，还要看。</p>
+<p>还有就是nvidia股价大跌，我觉得会涨回来的，因为现在nvidia股价跌的动机一方面是deepseek发布给国外ai行业带来的震动和恐慌，一方面是openai、anthropic这些大公司根本就没有上市，主力恐慌了所以抛售，股民拿nvidia撒气而已。deepseek技术能力再高，也离不开nvidia提供的算力、cuda生态，如果他们算力真能国产化那就当我没说。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“民主的”AI是美国人提出的一个很大的伪概念]]></title>
+        <id>https://neilsondou.me/post/min-zhu-de-ai-shi-yi-ge-hen-da-de-wei-gai-nian/</id>
+        <link href="https://neilsondou.me/post/min-zhu-de-ai-shi-yi-ge-hen-da-de-wei-gai-nian/">
+        </link>
+        <updated>2025-01-30T08:44:06.000Z</updated>
+        <content type="html"><![CDATA[<p>https://www.cbsnews.com/news/deepseek-ai-raises-national-security-concerns-trump/</p>
+<p>在这篇报道中提到了几个问题：</p>
+<p>Security threat for users<br>
+While the calls from Moolenaar could be the first inkling of a possible congressional crackdown, Ross Burley — a co-founder of the nonprofit Centre for Information Resilience — warned that DeepSeek's emergence in the U.S. raises data security and privacy issues for users. Chinese law grants Beijing broad authority to access data from companies based in China.<br>
+&quot;More and more people will use it, and that will open the door to more and more personal data just being given away to the [Chinese Communist Party] and being sent basically to mainland China to be able to inform them of their activities,&quot; Burley told CBS News.<br>
+&quot;What they'll use it for is behavior change campaigns, disinformation campaigns, for really targeted messaging as to what Western audiences like, what they do,&quot; he added.<br>
+DeepSeek, which is based in the Chinese city of Hangzhou, notes in its privacy policy that the personal information it collects from users is held &quot;on secure servers located in the People's Republic of China.&quot;<br>
+Under that policy, the company says it collects information including users' &quot;device model, operating system, keystroke patterns or rhythms, IP address, and system language.&quot; DeepSeek also collects &quot;service-related, diagnostic, and performance information, including crash reports and performance logs,&quot; according to the company.</p>
+<p>对用户的安全威胁<br>
+虽然莫勒纳尔的呼吁可能是国会可能采取严厉措施的初步迹象，但非营利性信息复原中心的联合创始人罗斯·伯利 (Ross Burley) 警告称，DeepSeek 在美国的出现会给用户带来数据安全和隐私问题。中国法律赋予北京广泛的权力，可以访问中国公司的数据。<br>
+伯利对哥伦比亚广播公司新闻台 (CBS News) 表示：“越来越多的人会使用它，这将导致越来越多的个人数据被提供给（中国共产党），并被发送到中国大陆，以便告知其活动。”<br>
+他补充道：“他们会利用这些来开展行为改变运动和虚假宣传运动，以真正有针对性地传达西方观众的喜好和行为。”<br>
+总部位于中国杭州的 DeepSeek 在其隐私政策中指出，其从用户那里收集的个人信息“保存在位于中华人民共和国的安全服务器上”。<br>
+根据该 政策，该公司表示，它收集的信息包括用户的“设备型号、操作系统、按键模式或节奏、IP 地址和系统语言”。DeepSeek 还收集“与服务相关的、诊断的和性能的信息，包括崩溃报告和性能日志”。</p>
+<p>这里就提到了从大语言模型诞生以来一直比较被关注的一个问题，就是国界之间的AI信息安全，其实用常理来推断，deepseek的网页端服务在美国不会有多少用户的，美国人已经用了好几年的chatgpt和calude，已经对这两家的服务产生了依赖，再加上他们对隐私的看重，或许国外大多数人都只是看看尝尝鲜，只有搞技术的会把模型down下来，自己部署。没人用的情况下，能泄露多少隐私给中国呢。</p>
+<p>另外一个就是审查制度，哪里的大语言模型都会有审查制度，审查力度轻重罢了，而且美国人明知道我们国家互联网审查制度就是这样的，而且一直是这样的，还要在deepseek火起来之后把这个问题拿出来翻炒，想知道被审查的信息可以去wikipedia啊。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大模型的回复、思维链中出现多语言混合的问题]]></title>
+        <id>https://neilsondou.me/post/da-mo-xing-de-hui-fu-si-wei-lian-zhong-chu-xian-duo-yu-yan-hun-he-de-wen-ti/</id>
+        <link href="https://neilsondou.me/post/da-mo-xing-de-hui-fu-si-wei-lian-zhong-chu-xian-duo-yu-yan-hun-he-de-wen-ti/">
+        </link>
+        <updated>2025-01-23T05:00:44.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://neilsondou.me/post-images/1737608470903.png" alt="" loading="lazy"></figure>
+<p>这个奖励机制我不明白是怎么实现的，但是使用下来效果很好，相比上一代确实少了很多类似的状况</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于英伟达最新的Cosmos]]></title>
+        <id>https://neilsondou.me/post/guan-yu-ying-wei-da-zui-xin-de-cosmos/</id>
+        <link href="https://neilsondou.me/post/guan-yu-ying-wei-da-zui-xin-de-cosmos/">
+        </link>
+        <updated>2025-01-15T09:20:16.000Z</updated>
+        <content type="html"><![CDATA[<p>sora刚出来的时候都在说，文生视频这个东西最大的用处是在训练生产环节中的ai时，可以提供大量生成的素材，Cosmos应该是这个领域出现的第一个平台，有条件能部署这个的人也基本都说这个平台比较好用，但是现阶段一些基础功能还有待完善，很看好他的发展。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网站这种模式是不是正在被中文互联网淘汰？说说我的看法]]></title>
+        <id>https://neilsondou.me/post/wen-da-da-jia-du-bu-zuo-wang-zhan-liao-ma/</id>
+        <link href="https://neilsondou.me/post/wen-da-da-jia-du-bu-zuo-wang-zhan-liao-ma/">
+        </link>
+        <updated>2025-01-08T19:01:37.000Z</updated>
+        <content type="html"><![CDATA[<p>对知乎问题：大家都不做网站了吗？的回答</p>
+<p>根据统计数据我们知道现如今域名数还有3160万个，网站数还有388万个。高峰期2017年网站数533万个，相比较2019年的497万个，截止2023年12月网站数只有388万个，的确网站数减少了100多万个。</p>
+<p>我做网站很多年了，包括这个网站，从2018年到现在，总共七八年。小一点的网站，比如给什么项目做展示页我也帮人做过，各种博客我也搞过，之前用go做过一套很方便的博客管理系统，大一点的项目也做过一个在线图书馆，为了推广这些网站仔细的研究过seo和sem这些东西。</p>
+<p>在2021年，家里人要做一个小项目，我说做成网站的话，掏钱买个域名服务器，前端后端一套下来我一天就能搞定，但这位来了一句：网站这个过时的东西现在谁还看啊，都用小程序，微信一点就打开了，多方便啊，比手机app还要方便。当时我不以为意，并不认为小程序这种和网站同质的东西可以替代网站，只认为某些重度依赖于微信生态的人会频繁的使用小程序而非网站或手机app。现在看来也是如此，小程序这个东西推广了这么多年也是不温不火，可能只有在微信群中发一个文档，才有人才会图方便去用小程序直接查看编辑，网站和手机app的一些功用仍然是不可替代的。</p>
+<p>然而吸引用户的并不是小程序，让网站这种模式逐渐被非刚需化，甚至边缘化的一直都是移动端的app，换句话来说是移动端的应用对于大厂来说可以带来更多流量和收益，所以厂商更偏向于让用户去手机上下载一个app，在里面提供服务，而不是用传统的网站来解决用户的所有需求，现在大多数的厂商都在做这种事，网页端提供的服务往往是很有限的，必须下载一个app才能正常使用。</p>
+<p>如果我们要问网站这种模式是不是正在被手机端app淘汰这个问题，那要考虑的方面可能比较多，pc设备普及率、移动端市场占有率、生态、聚合甚至隐私，都是厂商在选择优先做哪个市场时要考虑的东西。我们不想这么多，就从两个方面来看这个问题，就是像我一样的站长和用户。</p>
+<p>已经2025年了，做一个可以上线盈利的网站的门槛已经不能低到再低了，前有阿里云腾讯云提供各种低价解决方案，后有cloudflare这种良心公司为小企业和小开发者提供免费服务，再加上有各种ai，域名你想实名就去阿里腾讯买，不想实名就从godaddy和dynadot买，成套的解决方案可以让站长用极短的时间实现自己的想法，即使上了生产环境也用不着花很多钱。肯定不是因为做网站成本太高了大家才都不做了的。</p>
+<p>推广方面，seo和移动端app的推广相比，我还是觉得seo更方便一点，成本也低一点，移动端的app要想让所有人知道有这个东西，除了传统的推广方式，在短视频平台推广、社交媒体上推广各种各样的渠道，除了要接触各种厂商，还要花不少钱，具体的收效我是不了解的。</p>
+<p>生态方面，网页可以引入各家sdk扫码登陆，和手机app点一下一键登录，可能是慢了一点，但也不至于用户就因为需要打开手机扫一下码，就去找平替了吧，网站没法进入移动端生态这个肯定也是不成立的。</p>
+<p>相对不方便的就是国内空间是实名和审查，这个问题不提也罢，毕竟我的网站就没有实名。</p>
+<p>所以开发者们不是因为网站难做而不去做他的，问题肯定出在用户的使用习惯上，可能一方面，国内使用移动设备的用户要比使用pc的用户要多很多，或者在日常生活中使用常用服务的用户更喜欢用移动端设备而非pc，这是废话，因为大家在聊天的时候肯定喜欢用手机去聊，而非电脑，这是设备的属性。</p>
+<p>在这个问题下还有一个答案，是这么说的<br>
+“中文互联网生态就像几棵大树（APP)遮天蔽日，树下寸草(网站）不生。因为流量全被垄断了，加上百毒的竭泽而渔，国内的网站确实是以断崖式的速度在减少，比出生率下降还快，因为看不到希望。但国外则是另一番景象，独立站依然是互联网生态的基本盘，可以说是基因，每年都在大幅度增长，从Google的市值变化就能管中窥豹，Google和百毒的数据对比侧面反映了国内和国外独立站生存发展的现状。网站依然可以做，而且可以说是个体创业门槛最低的数字杠杆，关键在于要抬头看路，不要只知道埋头拉车。”</p>
+<p>那么我觉得，如果要想搞明白为什么国内和国外互联网出现了差别，在仅有实名备案这种无伤大雅的问题下，就要搞明白国内外用户的使用习惯的差别，我们还是来看看外国人怎么说。</p>
+<p>· 大家都用网站的原因是网站可以被谷歌索引<br>
+· 有数据显示了应用程序趋势，而且结论已经存在一段时间了。大多数人不会安装新应用程序。他们只使用他们一直使用的一小部分应用程序，几乎从不安装任何应用程序。让人们这样做非常困难，而应用商店的可见性是一个巨大的障碍。<br>
+· 许多真正推动应用程序的服务是在应用程序出现之前就已经存在的<br>
+· 太多应用程序都是无用的。我安装了 IMDB 应用程序，发现它与网站基本相同，然后卸载了它。它有什么用呢？所以现在如果某些信息只能通过应用程序获得，我会重新考虑我是否真的想要这些信息。<br>
+· 如果你是一家小公司，并且用户不会频繁使用你的服务，那么他们可能不会费心安装你的应用程序。<br>
+· 很多人根本不喜欢应用程序，并且会尽可能避免使用它们（我就是其中之一），因为他们不喜欢安装那么多东西，而且第一次使用后往往毫无用处。</p>
+<p>那么看了一些人的观点，我觉得问题可能主要就出在谷歌和抖音上，国外相对比较重度依赖谷歌，比起通过我们喜欢先打开短视频平台搜索自己所需的信息，国外更偏好谷歌一下，这和我们的百度一下有区别，因为百度的作用是可以被替代的，当百度给用户留下百度查病，癌症起步的这种印象，或者百度无法提供实时的信息时，我们就会逐渐把自己的使用习惯从依赖搜索引擎提供信息转变成去上抖音快手、今日头条上去点一下根据时间排序。谷歌当然无法给你看五分钟前某个小地方发生的某件小事，比如哪里哪里又打架了，更无法提供附属的社交功能，在获取信息的方式上，在抖音上搜一下确实要优于在谷歌上搜一下，而抖音主打的正是移动端，可能绝大多数人都是在手机上看抖音，而非在pc上看，微信等各种im、移动端支付、美团、滴滴、淘宝等同理，国内一些模式上的小创新替代了原有网站的功能，从而让用户产生了路径依赖，就难以离开手机了，更难以舍弃手机去用pc上的服务。</p>
+<p>至于外国人关心的移动端泄露个人隐私问题，在国内都变成了伪命题。国内用户从来不在乎自己的个人隐私，或者无力保护自己的个人隐私，甚至厂商都不在乎用户的个人隐私，形成了数据应用、数据泄露、数据贩卖的链条。</p>
+<p>国内的平台做的也很好，多多少少都带有一点平台聚合，支付宝这样一个支付软件里，可以聊天、打电话、用各种小程序甚至可以养电子宠物，所有国内的app也都要跟着不知道什么时候起来的风，都要在实现自己的核心功能之后，做这些功能，不管冗不冗余、用户用不用，都要有一个，因为别人也有，这个素养是国外的平台所不具备的。🤣</p>
+<p>所以在各种因素作用下，网站这种模式确实是正在被中文互联网淘汰，大多数只用过手机的年轻人，甚至不知道什么是域名，更别提记住自己常用的域名。除了一些移动端用起来实在不方便的功能，比如在线办公、设计这种服务，很多人宁愿去现下载一个移动端app，而非用网站上点一下就能用的功能。</p>
+<p>很难说这种趋势是好还是不好，反正长远来看，如果想在国内就业，学移动端开发的效益肯定要是大于学桌面端和前端的，不要看这两年前端就业形势好像好了一点，就要去学前端，以后新入场的公司，肯定要先做app，再做网站的，甚至可能都不考虑去做网站了，上线一个官网就去搞app了，那还去学前端干嘛。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[重磅发布！轻量级项目管理工具CodifyBox]]></title>
+        <id>https://neilsondou.me/post/chong-bang-fa-bu-qing-liang-ji-xiang-mu-guan-li-gong-ju-codifybox/</id>
+        <link href="https://neilsondou.me/post/chong-bang-fa-bu-qing-liang-ji-xiang-mu-guan-li-gong-ju-codifybox/">
+        </link>
+        <updated>2024-12-25T10:20:23.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://neilsondou.me/post-images/1735122090559.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://neilsondou.me/post-images/1735122093237.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://neilsondou.me/post-images/1735122096497.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://neilsondou.me/post-images/1735122099350.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://neilsondou.me/post-images/1735122101524.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://neilsondou.me/post-images/1735122151375.png" alt="" loading="lazy"></figure>
+<p>包含如图各种功能，下载地址<br>
+https://cowtransfer.com/s/b969590eeba741 点击链接查看 [ Codify Box.exe ] ，或访问奶牛快传 cowtransfer.com 输入传输口令 wqm02q 查看；</p>
+]]></content>
+    </entry>
+</feed>
