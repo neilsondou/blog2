@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Agent与模型安全问题 | 老窦的博客</title>
+<link rel="shortcut icon" href="https://dou.asia/favicon.ico?v=1771681436905">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://dou.asia/styles/main.css">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<!-- DEMO JS -->
+<script src="media/scripts/index.js"></script>
+
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Agent与模型安全问题
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2025-08-26 ·
+              </time>
+              
+                <a href="https://dou.asia/ncsOUJRfwP/" class="post-tags">
+                  # 原创
+                </a>
+              
+            </div>
+            
+            <div class="post-content">
+              <p>看到一个解释agent原理的好项目，顺便写一下 https://github.com/mileswangs/wscode-cli/blob/main/src/prompt.ts</p>
+<p>在很多年前，chatglm刚发布的时候，我就尝试过做一个小工具，只不过不是用来写代码的，是用来修一些系统上的小问题的，但是当时既没有agent的概念，也没有现在的mcp这些东西，只能用最笨的方法，把调用其他工具的方法写在prompt或者langchain中，然后通过cmd实现，但是也得到了不错的效果，这个小工具可以自己在后台定期的扫描记录我硬盘的剩余空间，然后会定期的要求我清理硬盘，在我确认之后它会在后台静默的清理需要清理的位置，至于其他的应用场景，它既无法满足我的需要，我也无法完全的信任llm去通过cmd进行敏感操作。<br>
+当时我在考虑做这个东西的时候，主要的问题有两个：第一是模型的性能问题，当时我把glm和langchain放在一台thinkserver上跑，在使用过程中暴露出这套不成熟的方案的一些比较严重的问题，比如响应速度慢、频繁调用爆显存，电费是最严重的问题，而调用厂商的api则违背了这个小项目的初衷。当然这些问题在现在都不算问题了，那么我考虑的第二个问题就是模型安全问题。<br>
+如果把所有的服务都放在本地运行，数据安全显然不是需要被考虑的问题，那么我担心的是模型在调用我本地工具进行敏感操作的时候，可能存在的信息差，也就是模型对需要进行的操作并不具有完整的认识，我自己天天在使用的过程中，会对自己要进行什么操作、该操作会产生什么影响会有清晰的认识，并且会不自觉的进行风险评估，但是模型显然不会如此，虽然我们可以把风险评估等等写在prompt中，但是在可预见的周期中，大模型显然不会具有这种人性化的预见。<br>
+那么对于现在的agent——或许我的担忧是多余的，可以在技术上很容易解决，在交互方面面临着类似CIA三元组的三个不可兼顾的维度：交互性，也就是在现在还未出现的场景下，agent进行静默操作，给用户带来的沉浸感；工具性，也就是ai能够进行操作的深入程度，同时也是大模型在使用场景下作为工具本身能够发挥出来的能力，包括它所能调用的工具、拥有的权限；敏感性，也就是每个操作都需要手动确认的机制，或许可能在未来有单独的一套方案代替人判断，同时是ai能够调用的工具、读取的文件所处于的范围，那么我们可以发现这三个维度中的互斥关系：如果需要让用户在使用环境下有沉浸体验，那么在保障交互性的前提下对安全性做出了牺牲，如果要保障敏感性，将所有操作隔离在敏感环境外，那么就牺牲了工具性。<br>
+或许对于将会出现的有别于现在玩具性质的agent，在设计的过程中就要考虑这三个方面的问题，根据不同的需求和使用环境来对这三个方面设置一个侧重点，举个例子：如果要在生产环节中使用agent去进行自动化的构建部署，那么就要牺牲交互性与工具性，保障数据的安全；如果要在日常使用中作为一个处理文档的助手，那么就要牺牲敏感性，来满足用户的需求。明确能够进行系统层面操作的agent的定位是比较重要的。<br>
+虽然大模型仍然是很不可靠的，但即使在一个全面引入ai进入生产流程系统中，最不可靠的仍然是人，之前看过一个新闻，就是生产环节中使用ai导致数据丢失，与其说是引起了开发者对生产环节中ai存在的恐慌，不如说是传统系统安全问题的老调重弹，成熟的ai会给人信任感，但是生产环节中永远不能放心ai去对敏感数据进行操作，相比于让agent本身变得更加安全，实际上使用ai时暴露出的各种问题凸显的仍然是开发者们对于传统系统安全的不重视—如果做好权限分配，从一开始就不让完全信任ai的人有能删库的能力，就不会出现这些问题了。</p>
+
+            </div>
+          </article>
+        </div>
+    
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://dou.asia/34/">
+              <h3 class="post-title">
+                关于Liquid Glass
+              </h3>
+            </a>
+          </div>  
+        
+
+        
+    
+        <div class="site-footer">
+  CC BY 4.0
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>

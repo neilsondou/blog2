@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>关于Deepseek满血版、模型性能的争议 | 老窦的博客</title>
+<link rel="shortcut icon" href="https://dou.asia/favicon.ico?v=1771681436905">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://dou.asia/styles/main.css">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<!-- DEMO JS -->
+<script src="media/scripts/index.js"></script>
+
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              关于Deepseek满血版、模型性能的争议
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2025-02-26 ·
+              </time>
+              
+                <a href="https://dou.asia/ncsOUJRfwP/" class="post-tags">
+                  # 原创
+                </a>
+              
+            </div>
+            
+            <div class="post-content">
+              <p>首先明确一点：客观定义上的这个r1模型的满血版，是617b参数、fp8精度且未经过量化蒸馏微调的原生模型，是开源了的，而现在市面上的99%第三方平台提供的deepseek模型都不是满血的，包括几乎所有自称满血版的。<br>
+第三方平台，比如腾讯元宝、硅基流动、腾讯云等等所提供的其实就是算力，但是为了推广让更多人使用，而且钻一下deepseek官网经常无法进行问答的空子，来宣传自己家的平台，如果像colab一样去直接出租算力，首先不说普通用户能不能负担的起时长的浪费、而且不已tokens计算的计费并不符合大模型出现以来一直沿用的收费逻辑。所以这些平台所提供在自己集群上部署的deepseek模型，并且出租或者开放使用大模型的问答这件事本身是合理的商业行为，但是问题就出在这里，如果直接出租算力给用户，那么用户可以选择去部署什么样的模型，可以根据自己的需求和使用场景来部署参数的模型，而这些第三方平台所推出的所谓满血版deepseek模型，实际上是无法验证是不是满血版的，用户无法获取到这些信息。<br>
+经过一些人的测试，腾讯元宝的r1在性能上接近于官方所提供的服务，但是在内容审查，引用内容质量上相较于直接从搜索引擎获取，而从公众号平台上获取，且内容审查机制更加严格，实际上影响了r1模型的原始性能，毕竟公众号平台上的内容相对来说比较少，此外经过测试，在一些需要长思维链推理的问题中，腾讯元宝的r1与deepseek r1相比较为逊色，可以说在严格的内容审查、公众号的信息污染的影响下，腾讯元宝的r1不可以说是满血版，当然这个满血版只是严格意义上的定义，作为广告噱头来说是没问题的。当然这其中也存在着一些腾讯结束deepseek热度抢占ai隐私高地的嫌疑。<br>
+其他各种服务商所提供的r1模型，都与腾讯元宝类似，或多或少因为服务商自身的各种目的，在部署过程中改变信息获取等等机制，对模型自身的性能产生了影响，有的服务商甚至部署了30b的r1模型，骗人说是满血版，该类服务商所提供的服务不应该继续使用。</p>
+<p>那么在哪里能使用到满血版的deepseek模型呢，目前为止只有三种方法：官方api、本地部署、算力租赁，官方的api好像最近在降价，关于怎么去使用可以查看官方文档，或者在python中调用。</p>
+<p>如果用户想要在本地部署deepseek满血版的话，除了购买几张死贵的英伟达显卡，可以在接受范围内的大概就只有两种方案，一种是买几台macmini，串联起来可以部署满血版的模型，或者通过服务器平台的cpu和大量内存进行部署，但是输出速度感人，目前这个满血版的模型在服务器平台cpu算力的部署中的瓶颈据说在硬盘的读写速度上，有人正在研究把模型存在内存里，该方案有待验证。<br>
+算力租赁的话，有各种服务商可以考虑，但是价格基本不是普通用户能够负担得起的，这里就不举例子了。</p>
+<p>关于deepseek r1模型的性能，远远没有网上吹的那么邪乎，说世界第一，具体的elo可以查看https://openlm.ai/chatbot-arena/，在这个排行中，除了尚未被加入的calude 3.7，deepseek r1的性能排在第五，在chatgpt、geminiexp、gork之下，对于开源大模型来说这个排名已经不错了，但是要做一个大模型，我们在不论性能的前提下首先要考虑的是用户的体验，我从deepseek v2发布开始就一直在使用，一直到deepseek v3、r1开始在互联网上火起来之后，用户体验就直线下滑，官方提供的api响应速度慢，网页上几乎无法使用大模型，从而催生出来各种第三方服务商来提供r1模型给人使用，让人钻了空子，这是deepseek的问题，除此之外，响应速度、大模型幻觉的这些问题仍然存在。到现在为止，deepseek从第一个大模型发布以来，用户体验就从来没有超过chatgpt，除了网络问题，我在高强度使用用chatgpt的时候从来没有出现过任何响应上的问题，这就是下一步deepseek必须要注意的问题了。</p>
+
+            </div>
+          </article>
+        </div>
+    
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://dou.asia/29/">
+              <h3 class="post-title">
+                关于“人工智能正在创造一代文盲程序员”
+              </h3>
+            </a>
+          </div>  
+        
+
+        
+    
+        <div class="site-footer">
+  CC BY 4.0
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>
